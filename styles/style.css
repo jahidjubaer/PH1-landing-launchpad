@@ -23,7 +23,7 @@ body {
   color: #4e47ff;
 }
 .dark2 {
-  color: #252432;
+  color: rgba(37, 36, 50, 0.5);
 }
 .dark1 {
   color: #252432;
@@ -44,6 +44,7 @@ header {
   padding-top: 0px;
   background-position: 100%;
   height: 698px;
+  margin-bottom: 116px;
 }
 .header-section {
   max-width: 1140px;
@@ -65,4 +66,40 @@ header {
   width: 905px;
   margin-bottom: 37px;
   height: 152px;
+}
+
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.webflow-2022{
+   display: flex;
+   justify-content: space-between; 
+   margin-bottom: 116px;
+   text-align: left;
+}
+
+.action{
+    width: 517px;
+    height: 203px;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-top: 62px;
+    margin-bottom: 23px;
+}
+
+.action-description {
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px;
+}
+
+.web-image img{
+    border-radius: 48px;
 }
