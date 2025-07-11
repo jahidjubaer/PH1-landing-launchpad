@@ -1,11 +1,9 @@
-/* raleway font */
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-/* inter font */
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -17,7 +15,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 
 /* body */
 body {
@@ -33,6 +30,11 @@ body {
 }
 .dark1 {
   color: #252432;
+}
+
+.header-section {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .btn-primary {
@@ -52,10 +54,6 @@ header {
   height: 698px;
   margin-bottom: 116px;
 }
-.header-section {
-  max-width: 1140px;
-  margin: 0 auto;
-}
 
 .nav-bar {
   display: flex;
@@ -68,10 +66,11 @@ header {
 .banner-title {
   font-size: 65px;
   font-weight: bold;
-  padding-left: 117px;
   width: 905px;
-  margin-bottom: 37px;
   height: 152px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 37px;
 }
 
 /* main */
@@ -132,14 +131,14 @@ main {
   justify-content: space-around;
 }
 
-.user-count-tittle{
+.user-count-tittle {
   font-size: 80px;
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.user-sub-tittle{
+.user-sub-tittle {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
   margin-top: 0px;
@@ -147,51 +146,66 @@ main {
 
 /* user-review */
 
-.user-review-section{
+.user-review-section {
   height: 342px;
   margin-bottom: 128px;
 }
-.user-review-heading{
+.user-review-heading {
   font-weight: bold;
   font-size: 42px;
   color: #252432;
   margin-bottom: 50px;
 }
-.user-review-container{
+.review-tittle {
+  font-weight: 600;
+  font-size: 24px;
+}
+.review-description {
+  color: #1e1e1e;
+}
+
+.user-name {
+  font-weight: 600;
+  color: #757575;
+}
+.user-date {
+  color: #b3b3b3;
+}
+.user-review-container {
   display: flex;
   gap: 20px;
   justify-content: space-between;
-  
 }
 
-.user-review{
+.user-review {
   border-radius: 14px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   text-align: left;
   padding: 24px;
+  border: solid #f2eded 1px;
 }
 
-.star-container{
+.star-container {
   display: flex;
   gap: 4px;
   margin-bottom: 24px;
 }
-.review-tittle{
+.review-tittle {
   font-family: Ag;
   margin-bottom: 8px;
 }
 
-.reviewer-info{
+.reviewer-info {
   display: flex;
   gap: 12px;
   margin-top: 24px;
 }
-.reviewer-info img{
+.reviewer-info img {
   border-radius: 50%;
 }
 
 /* focus-better-section */
-.focus-better-section{
+.focus-better-section {
   border-radius: 14px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   margin-bottom: 92px;
@@ -199,103 +213,101 @@ main {
   height: 696px;
 }
 
-.focus-tittle{
+.focus-tittle {
   font-weight: bold;
   font-size: 50px;
   margin-bottom: 20px;
 }
 
-/* have to add Ag font */
-.focus-description{
+.focus-description {
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
+  font-weight: 400;
 }
-.focus-better-section img{
-    margin-top: 20px;
-    height: 364px;
-    border-radius: 48px;
+.focus-better-section img {
+  margin-top: 20px;
+  height: 364px;
+  border-radius: 48px;
 }
 
 /* getin-touch-section */
-.getin-touch-section{
+.getin-touch-section {
   height: 632px;
 }
 
-.getin-touch-container{
+.getin-touch-container {
   display: flex;
   justify-content: space-between;
   margin-top: 71px;
 }
 
-.getin-touch{
+.getin-touch {
   font-weight: bold;
   font-size: 97px;
   padding-top: 129px;
   text-align: left;
 }
-.information{
+.information {
   height: 490px;
   width: 497px;
   text-align: left;
 }
-.information input, textarea{
-    width: 100%;
-    height: 70px;
-    background-color: white;
-    border: #D6DDED solid 1px;
-    border-radius: 10px;
-    padding: 20px 32px;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 20px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    margin-bottom: 19px;
-    margin-top: 10px;
+.information input,
+textarea {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border: #d6dded solid 1px;
+  border-radius: 10px;
+  padding: 20px 32px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  margin-bottom: 19px;
+  margin-top: 10px;
 }
-.information textarea{
+.information textarea {
   width: 100%;
   height: 135px;
 }
 
-.information label{
+.information label {
   font-size: 18px;
-  font-weight:600;
+  font-weight: 600;
   padding-bottom: 10px;
 }
 
 /* footer section */
 
-.footer-section{
+.footer-section {
   padding: 104px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.footer-container{
+.footer-container {
   width: 531px;
   height: 221px;
   margin: 0 auto;
 }
 
-.footer-tittle{
+.footer-tittle {
   font-weight: black;
   font-size: 100px;
   margin-bottom: 8px;
 }
 
-/* need to add ag font */
-.footer-description{
+.footer-description {
   color: rgba(137, 135, 161, 1);
   margin-bottom: 20px;
 }
 
-/* need to add ag font */
-.footer-link{
+.footer-link {
   display: flex;
   justify-content: space-around;
-  
 }
-.footer-link li{
+.footer-link li {
   list-style: none;
 }
-.footer-link a{
+.footer-link a {
   text-decoration: none;
   color: rgba(137, 135, 161, 1);
 }
