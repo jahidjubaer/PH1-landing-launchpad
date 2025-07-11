@@ -12,10 +12,16 @@
   font-style: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 /* body */
 body {
   text-align: center;
-  border: 2px solid;
 }
 
 /* shared style */
@@ -69,37 +75,72 @@ header {
 }
 
 /* main */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-.webflow-2022{
-   display: flex;
-   justify-content: space-between; 
-   margin-bottom: 116px;
-   text-align: left;
+.webflow-2022 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 116px;
+  text-align: left;
 }
 
-.action{
-    width: 517px;
-    height: 203px;
+.action {
+  width: 517px;
+  height: 203px;
 }
 
-.action-title{
-    font-size: 42px;
-    font-weight: bold;
-    color: #252432;
-    margin-top: 62px;
-    margin-bottom: 23px;
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  margin-top: 62px;
+  margin-bottom: 23px;
 }
 
 .action-description {
-    font-size: 24px;
-    color: rgba(37, 36, 50, 0.5);
-    margin-bottom: 23px;
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 23px;
 }
 
-.web-image img{
-    border-radius: 48px;
+.web-image img {
+  border-radius: 48px;
+}
+
+/* user section  */
+
+.user-section {
+  height: 306px;
+  background-color: rgba(78, 71, 255, 0.1);
+  margin-bottom: 137px;
+  padding: 50px 142px;
+  border-radius: 24px;
+}
+
+.user-title {
+  color: #252432;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 42px;
+}
+
+.user-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-count-tittle{
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.user-sub-tittle{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 0px;
 }
