@@ -215,3 +215,87 @@ main {
     height: 364px;
     border-radius: 48px;
 }
+
+/* getin-touch-section */
+.getin-touch-section{
+  height: 632px;
+}
+
+.getin-touch-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 71px;
+}
+
+.getin-touch{
+  font-weight: bold;
+  font-size: 97px;
+  padding-top: 129px;
+  text-align: left;
+}
+.information{
+  height: 490px;
+  width: 497px;
+  text-align: left;
+}
+.information input, textarea{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border: #D6DDED solid 1px;
+    border-radius: 10px;
+    padding: 20px 32px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 19px;
+    margin-top: 10px;
+}
+.information textarea{
+  width: 100%;
+  height: 135px;
+}
+
+.information label{
+  font-size: 18px;
+  font-weight:600;
+  padding-bottom: 10px;
+}
+
+/* footer section */
+
+.footer-section{
+  padding: 104px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.footer-container{
+  width: 531px;
+  height: 221px;
+  margin: 0 auto;
+}
+
+.footer-tittle{
+  font-weight: black;
+  font-size: 100px;
+  margin-bottom: 8px;
+}
+
+/* need to add ag font */
+.footer-description{
+  color: rgba(137, 135, 161, 1);
+  margin-bottom: 20px;
+}
+
+/* need to add ag font */
+.footer-link{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.footer-link li{
+  list-style: none;
+}
+.footer-link a{
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
+}
